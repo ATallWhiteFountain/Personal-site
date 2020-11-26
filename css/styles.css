@@ -57,6 +57,11 @@ body{
     padding-right: 30px;
 }
 
+.main-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 /* footer */
 
 .email{
@@ -105,4 +110,9 @@ body{
 .links:active {
     color: blue;
     text-decoration: none;
+}
+
+.credit-line{
+    clear: both;
+    text-align: right;
 }
