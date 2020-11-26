@@ -34,7 +34,7 @@ body{
 }
 
 .navbar-area{
-    background-color: black;
+    background-color: #292b2c;
 }
 
 /* main */
@@ -43,7 +43,19 @@ body{
     margin-left: 3%;
 }
 
+.centered{
+    text-align: center;
+}
 
+.carousel-item{
+    height: 300px;
+    padding-top: 4%;
+}
+
+.carousel-text{
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 /* footer */
 
