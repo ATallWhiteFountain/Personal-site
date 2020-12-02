@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Brandon Swatek's short bio</title>
     <!-- bootstrap, fontello, my css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -17,17 +18,21 @@
 
     <header class="heading">
 
-        <img class="top-img" src="imgs/IMG_4342.JPG" alt="profile-photo">
-
-        <h1 class="with-margin big-title italics">Brandon Swatek</h1>
-
-        <h3>Aspiring programmer</h3>
-
-        <p class="italics">I study at Jagiellonian University's Faculty of Physics, Astronomy and Applied Computer Science</p>
-        
+        <div class="container">
+            <div class="row">
+                <div class="top-img-cont col-md-6">
+                    <img class="top-img" src="imgs/IMG_4342.JPG" alt="profile-photo">
+                </div>
+                <div class="top-text-cont col-md-6">
+                    <h1 class="with-margin big-title italics">Brandon Swatek</h1>
+                    <h3>Aspiring programmer</h3>
+                    <p class="italics">I study at Jagiellonian University's Faculty of Physics, Astronomy and Applied Computer Science</p>        
+                </div>
+        </div>
+     
         <div class="container-fluid navbar-area">
               <!-- Nav Bar -->
-            <nav class="navbar navbar-expand-lg navbar-dark">
+            <nav class="navbar navbar-expand-md navbar-dark">
                 <a class="navbar-brand" href="">Home</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -57,7 +62,6 @@
         <section class="centered">
 
             <div id="main-carousel" class="carousel slide" data-ride="false">
-              
                 <div class="carousel-inner">
 
                     <div class="carousel-item active container-fluid">
@@ -104,7 +108,6 @@
                             </button>
                         </p>
                     </div>
-
                     <a class="carousel-control-prev" href="#main-carousel" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     </a>
@@ -114,38 +117,41 @@
                     </a>
               </div>
             </div>
-        
         </section>
-
         <hr class="horizontal-line">
-
     </main>
 
     <footer class="footing">
-
-        <aside class="email">
-            <h4 class="with-margin">Contact me</h4>
-            <p>Please contact me at <span class="italics">bswatekpost@gmail.com</p></p>
-        </aside>
-
-        <aside class="instagram">
-            <a class="links" href="https://www.instagram.com/ottar_aarseth/" target="_blank">
-                <i class="icon-instagram"></i>
-            </a>
-        </aside>
-
-        <aside class="linkedin"> 
-            <a class="links" href="https://www.linkedin.com/in/brandon-swatek-2487b3187/" target="_blank">
-                <i class="icon-linkedin-squared"></i>
-            </a>
-        </aside>
-
-        <aside class="github">
-            <a class="links" href="https://github.com/ATallWhiteFountain?tab=repositories" target="_blank">
-                <i class="icon-github-circled-alt2"></i>
-            </a>
-        </aside>
-        <p class="credit-line">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+        <div class="container">
+            <div class="row">
+                <div class="email centered col-md-6">
+                    <h4 class="with-margin">Contact me</h4>
+                    <p>Please contact me at <span class="italics">bswatekpost@gmail.com</span></p>        
+                </div>
+                <div class="col-md-6 flex-cont">
+                    <div class="instagram">
+                        <a class="links" href="https://www.instagram.com/ottar_aarseth/" target="_blank">
+                            <i class="icon-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="linkedin"> 
+                        <a class="links" href="https://www.linkedin.com/in/brandon-swatek-2487b3187/" target="_blank">
+                            <i class="icon-linkedin-squared"></i>
+                        </a>
+                    </div>
+                    <div class="github">
+                        <a class="links" href="https://github.com/ATallWhiteFountain?tab=repositories" target="_blank">
+                            <i class="icon-github-circled-alt2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-">
+                    <p class="credit-line">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+                </div>
+            </div>
+        </div>
     </footer>
 
 </body>

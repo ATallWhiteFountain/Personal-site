@@ -12,6 +12,16 @@ body{
 
 /* header */
 
+@media screen and (min-width: 768){
+    .top-img-cont{
+        padding-bottom: 50px;
+    }
+    
+    .top-text-cont{
+        padding-top: 100px;
+    }
+}
+
 .top-img{
     border-radius: 35%;
     width: 300px;
@@ -64,12 +74,11 @@ body{
 
 /* footer */
 
-.email{
-    float: left;
+.flex-cont{
+    display: flex;
 }
 
 .github{
-    float: right;
     margin-right: 20px;
     background-color: gray;
     width: 50px;
@@ -77,7 +86,6 @@ body{
 }
 
 .linkedin{
-    float: right;
     margin-right: 20px;
     background-color: #2977c9;
     width: 50px;
@@ -85,7 +93,6 @@ body{
 }
 
 .instagram{
-    float: right;
     margin-right: 20px;
     background-color:  #f09433;
     width: 50px;
@@ -114,5 +121,4 @@ body{
 
 .credit-line{
     clear: both;
-    text-align: right;
 }
